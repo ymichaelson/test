@@ -5,4 +5,4 @@ helm:
   values:
     baseDomain: addons.microtrading.com
     gateway:
-      name: addons-gw
+      name: addons-gws
