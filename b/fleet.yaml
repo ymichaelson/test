@@ -1,0 +1,8 @@
+namespace: lisi-4
+helm:
+  repo: oci://dockerhub.kubekey.local/charts/nginx-httproute
+  version: "0.3.0"
+  values:
+    baseDomain: addons.microtrading.com
+    gateway:
+      name: addons-gw
