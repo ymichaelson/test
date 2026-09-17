@@ -20,3 +20,6 @@ spec:
           image: docker.io/library/nginx:stable
           ports:
             - containerPort: 80
+          resources:
+            limits:
+              cpu: 10m
